@@ -1,4 +1,5 @@
-
+var myAlphabet = ['A','B','C','D','F','G'];
+console.log(myAlphabet.length);
 
   var planets = ['Jupiter', 'Saturn', 'Venus', 'Earth', 'Mars'];
   console.log(planets[0], planets[1], planets[2], planets[3], planets[4]);
@@ -41,9 +42,16 @@ console.log(a>=c);
 console.log(a<=c);
 
 var hello = function() {
+   return 'Hello World!'; 
+};
+console.log (hello());
+
+var hello = function() {
     return 'Hi!';
 };
 var x = hello();
 console.log (x);
+
+
 
 
